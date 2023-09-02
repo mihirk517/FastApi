@@ -24,16 +24,16 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-while True:
-    try:
-        conn = psycopg2.connect(host="localhost", database="fastapi", user="postgres", password="admin",
-                                cursor_factory=RealDictCursor)
-        cursor = conn.cursor()
-        print("Connected to Database")
-        break
-    except Exception as e:
-        print(f"Connection Error {e.args}")
-        time.sleep(2)
+#while True:
+#    try:
+#        conn = psycopg2.connect(host="localhost", database="fastapi", user="postgres", password="admin",
+#                                cursor_factory=RealDictCursor)
+#        cursor = conn.cursor()
+#        print("Connected to Database")
+#        break
+#    except Exception as e:
+#        print(f"Connection Error {e.args}")
+#        time.sleep(2)
 
 my_posts = [{"title": "title of post1", "content": "content of post1", "id": 1},
             {"title": "Photos", "content": "Photos to be printed", "id": 2}]
