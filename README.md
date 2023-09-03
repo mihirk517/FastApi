@@ -7,3 +7,6 @@ The backend is based on [FastAPI](https://fastapi.tiangolo.com/) a python based 
 ## Video
 
 The following video shows working of the backend in processing & storing OAuth2 login information in hashed format inside the database along with the posts created by the user along with his votes. It also shows the complete dockerization of both the back & the front end suitabe for hosting.
+
+https://github.com/mihirk517/FastApi/assets/50024720/325a08af-0a98-4c33-a577-bde236e2ba63
+
