@@ -1,4 +1,4 @@
-### FastAPI backend for a Social Media App
+# FastAPI backend for a Social Media App
 
 This is a Backend framework built for a Social Media application where people can create posts, see posts created by others and Vote on them.
 
